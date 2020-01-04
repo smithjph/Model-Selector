@@ -1,5 +1,6 @@
 require(caret)
 require(tidyverse)
+require(gridExtra)
 
 runSim <- function(dat, problem.type, target, error.metric){
   # runs models and gives initial accuracy results
